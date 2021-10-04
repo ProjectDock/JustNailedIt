@@ -7,6 +7,11 @@ const cards = [
     codeFile: 'pd.js',
     github: 'https://github.com/ProjectDock',
   },
+  {
+    name: 'Tamas Knisz',
+    codeFile: 'tk.js',
+    github: 'https://github.com/TamasKn',
+  },
 
   /** ======== Place your infos above ======== **/
 ]
