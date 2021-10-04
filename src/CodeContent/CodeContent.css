@@ -1,0 +1,16 @@
+.code__format {
+    font-family: "Ubuntu Mono",monospace;
+    font-size: 1.8rem;
+    color: #aeaeae;
+    background-color: #2f2f2f;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: .5rem 1rem;
+    margin: 2rem 3rem;
+    border-radius: 2px;
+}
+
+.code__multi-line {
+    width: 60rem;
+    margin-bottom: 5rem;
+}

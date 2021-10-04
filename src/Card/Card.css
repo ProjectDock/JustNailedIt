@@ -1,0 +1,56 @@
+
+.card--container {
+    height: 30em;
+    width: 75em;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    align-items: center;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    position: relative;
+    flex-direction:column;
+    border-radius:16px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    margin: 2rem 2rem;
+    background-color: #2f2f2f;
+}
+
+.card--description {
+    color: #FAFAFC;
+    height: 7em;
+    width: 75em;
+    text-align: center;
+    bottom: 0;
+    position: sticky;
+}
+
+.card--description h2 {
+    font-size: 2rem;
+}
+
+.card--github {
+    width:3em;
+    height:3em;
+    background-image: url("../assets/images/GitHub.png");
+    background-size: cover;
+    margin: 1rem 0;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.card--github:hover {
+    cursor: pointer;
+    background-image: url("../assets/images/GitHub-light.png");
+}
+
+@media only screen and (max-width: 800px) {
+    .card--container, .card--description, .card--image {
+        width: 30em;
+    }
+}
