@@ -21,6 +21,11 @@ const cards = [
     codeFile: "ab.js",
     github: "https://github.com/brettl1991",
   },
+  {
+    name: "Tamas Knisz",
+    codeFile: "tamk.js",
+    github: "https://github.com/TamasKn",
+  },
 
   /** ======== Place your infos above ======== **/
 ];
