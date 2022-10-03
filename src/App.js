@@ -25,8 +25,9 @@ const App = () => {
 
       <section className="site__content">
         {
-          content.map(item => (
+          content.map((item, idx) => (
             <Card
+              key={idx}
               name={item.name}
               codeFile={readContent(item.codeFile)}
               github={item.github}

@@ -1,6 +1,6 @@
-![alt text](src/assets/images/hacktoberfest21_campaign-banner.webp)
+![alt text](src/assets/images/hacktoberfest_logo.png)
 # JustNailedIt
-We are celebrating Hacktoberfest 2021 with the project where everyone can share the code snippet got on the recent technical interview.
+We are celebrating Hacktoberfest 2022 with the project where everyone can share the code snippet got on the recent technical interview.
 
 ## Rules
 - Code can be submitted only wrapped in string
@@ -52,6 +52,6 @@ It is a basic React application that listing information from a js file. Do not 
 10. Create a pull request to the original repo
 
 
-> Congratulations! You are now one step closer to getting the Hacktoberfest 2021 swags. You can check your progress at <https://hacktoberfest.digitalocean.com/profile> .
+> Congratulations! You are now one step closer to getting the Hacktoberfest 2022 swags. You can check your progress at <https://hacktoberfest.digitalocean.com/profile> .
 
 ######By contributing you understand that your code will be publicly available
