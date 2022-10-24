@@ -1,8 +1,14 @@
 export const code = `
-  function fibonacci(n){
-    if(n<=1)
-      return n;
+function isPrime(n){
+  let divisor = 2;
+
+  while (n > divisor){
+    if(n % divisor === 0){
+     return false; 
+    }
     else
-      return fibonacci(n-1) + fibonacci (n-2);  
+      divisor++;
   }
+  return true;
+}
 `;
