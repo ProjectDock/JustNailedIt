@@ -30,7 +30,12 @@ const cards = [
     name: "Anjan Diyora",
     codeFile: "bob.js",
     github: "https://github.com/Anajn50",
-  }
+  },
+  {
+    name: "Urmil Bhavsar",
+    codeFile: "ub.js",
+    github: "https://github.com/urmil22",
+  },
 
   /** ======== Place your infos above ======== **/
 ];
